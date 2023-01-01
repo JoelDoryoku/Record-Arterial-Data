@@ -1,0 +1,9 @@
+---
+import Base from '../layouts/Base.astro';
+import Entries from '../components/Entries.svelte';
+import Graph from '../components/Graph.svelte';
+---
+<Base title="Inicio">
+	<Graph client:load />
+	<Entries client:load />
+</Base>

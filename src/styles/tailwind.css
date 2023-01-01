@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#registros {
+    grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
+    gap: 1rem;
+}
+
+.datos-registro {
+    grid-template-columns: repeat(auto-fill, minmax(10em, 1fr));
+    gap: .5rem;
+}
+
+@keyframes loading {
+    0% {
+        width: 0%;
+        opacity: 1;
+    }
+
+    10% {
+        width: 0%;
+    }
+
+    80% {
+        width: 100%;
+    }
+
+    85% {
+        width: 100%;
+        opacity: 1;
+    }
+
+    100% {
+        width: 100%;
+        opacity: 0;
+    }
+}
+
+@keyframes show {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
