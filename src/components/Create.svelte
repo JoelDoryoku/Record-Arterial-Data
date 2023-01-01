@@ -3,7 +3,7 @@
 
 
     function goBack() {
-        window.location.href = "/";
+        window.location.href = "/Record-Arterial-Data/";
     }
 
     function handleSubmit(e) {

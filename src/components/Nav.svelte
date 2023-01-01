@@ -3,7 +3,7 @@
         if (window.location.href.match('/create/')) {
             document.form.requestSubmit();
         } else {
-            window.location.href = '/create/';
+            window.location.href = '/Record-Arterial-Data/create/';
         }
     }
 </script>
