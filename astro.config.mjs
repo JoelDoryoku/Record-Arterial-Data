@@ -8,5 +8,7 @@ import svelte from "@astrojs/svelte";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind(), svelte()]
+  integrations: [tailwind(), svelte()],
+  site: 'https://joeldoryoku.github.io',
+  base: '/Record-Arterial-Data',
 });
